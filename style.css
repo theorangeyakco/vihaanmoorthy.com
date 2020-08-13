@@ -1,0 +1,245 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.col {
+	display: flex;
+	align-items: center;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-right: 50px;
+}
+
+.column1 {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.spacer {
+	width: 50%;
+}
+
+.column2 {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+}
+
+.column3 {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin-right: 25px;
+}
+
+.column4 {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin-left: 25px;
+}
+
+.righter {
+	width: 50%;
+}
+
+.left {
+	width: calc(100% - 25px);
+	height: 550px;
+	margin-top: 1rem;
+	margin-right: 25px;
+	margin-bottom: 1rem;
+}
+
+.right {
+	width: calc(100% - 25px);
+
+	height: 550px;
+	margin-top: 1rem;
+	margin-left: 25px;
+	margin-bottom: 1rem;
+}
+
+.right1 {
+	width: calc(100% - 25px);
+	height: 550px;
+	margin-top: 1rem;
+	margin-left: 25px;
+	margin-bottom: 1rem;
+}
+
+h1 {
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 2rem 5rem;
+	background-color: #f5f5f5;
+	height: 2rem;
+}
+
+nav h1 {
+	font-family: source-sans-pro, sans-serif;
+
+	font-weight: 100;
+
+	font-style: normal;
+	letter-spacing: 5px;
+
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+.row {
+	margin-top: 3rem;
+	display: flex;
+}
+
+.row2 {
+	margin-top: 2rem;
+	display: flex;
+}
+
+main {
+	margin: 0rem 5rem;
+}
+
+.hero {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	height: 550px;
+	width: auto;
+	background-color: grey;
+}
+
+.vihaan {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.vihaanwrapper {
+	width: 50%;
+}
+
+.vihaanimg {
+	height: auto;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.img1 {
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+}
+
+.othercolumn {
+	margin-right: 50px;
+	width: 50%;
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* justify-content: space-between; */
+}
+
+.projectsomething {
+	height: auto;
+	width: 100%;
+	min-width: 100%;
+	margin-bottom: 1rem;
+}
+
+.spacer {
+	width: 50%;
+}
+
+.tagline {
+	font-family: source-sans-pro, sans-serif;
+
+	font-weight: 200;
+
+	font-style: normal;
+	font-size: 1rem;
+}
+
+p {
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+}
+
+.project-name {
+	font-family: source-sans-pro, sans-serif;
+
+	font-weight: 600;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+
+	font-size: 1.5rem;
+}
+
+.rehousing {
+	font-family: source-sans-pro, sans-serif;
+
+	font-weight: 600;
+	font-size: 1rem;
+	color: #999999;
+}
+
+.text {
+	font-family: source-sans-pro, sans-serif;
+
+	font-weight: 300;
+	font-size: 1rem;
+	width: 100%;
+	margin-top: 1rem;
+	text-align: justify;
+}
+
+.aboutme {
+	font-family: source-sans-pro, sans-serif;
+
+	font-weight: 200;
+
+	font-style: normal;
+	font-size: 1rem;
+}
+
+.row3 {
+	margin-top: 2rem;
+	display: flex;
+}
+
+.row4 {
+	margin-top: 2rem;
+	display: flex;
+	margin-bottom: 4rem;
+}
+
+.descrip {
+	font-family: source-sans-pro, sans-serif;
+
+	font-weight: 300;
+	font-size: 1rem;
+	width: 100%;
+	text-align: justify;
+}
+
+.beacon-text2,
+.beacon-text3 {
+	width: calc(100% - 25px);
+}
+
+.beacon-text3 {
+	margin-left: 25px;
+}
