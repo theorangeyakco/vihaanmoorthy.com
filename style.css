@@ -36,42 +36,77 @@ body {
 	display: flex;
 	flex-direction: row;
 	width: 50%;
-	margin-right: 25px;
+	margin-right: 50px;
 }
 
 .column4 {
 	display: flex;
 	flex-direction: row;
 	width: 50%;
-	margin-left: 25px;
+	/* margin-left: 50px; */
 }
 
 .righter {
 	width: 50%;
+	margin-left: 50px;
+}
+
+.righter1 {
+	width: 50%;
+	/* margin-right: 50px; */
+}
+
+.righter2 {
+	width: 50%;
+	margin-left: 50px;
 }
 
 .left {
-	width: calc(100% - 25px);
-	height: 550px;
-	margin-top: 1rem;
-	margin-right: 25px;
+	height: auto;
+	width: 100%;
+	min-width: 100%;
 	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.left2 {
+	height: auto;
+	width: 100%;
+	min-width: 100%;
+	margin-bottom: 1rem;
+
+	margin-top: 1rem;
 }
 
 .right {
-	width: calc(100% - 25px);
-
-	height: 550px;
+	height: auto;
+	width: 100%;
+	min-width: 100%;
 	margin-top: 1rem;
-	margin-left: 25px;
+	margin-bottom: 1rem;
+}
+
+.right2 {
+	height: auto;
+	width: 100%;
+	min-width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.left1 {
+	height: auto;
+	width: 100%;
+	min-width: 100%;
+	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
 
 .right1 {
-	width: calc(100% - 25px);
-	height: 550px;
+	height: auto;
+	width: 100%;
+	min-width: 100%;
 	margin-top: 1rem;
-	margin-left: 25px;
 	margin-bottom: 1rem;
 }
 
@@ -86,13 +121,13 @@ nav {
 	flex-direction: row;
 	padding: 2rem 5rem;
 	background-color: #f5f5f5;
-	height: 2rem;
+	height: 4rem;
 }
 
 nav h1 {
 	font-family: source-sans-pro, sans-serif;
 
-	font-weight: 100;
+	font-weight: 300;
 
 	font-style: normal;
 	letter-spacing: 5px;
@@ -116,11 +151,11 @@ main {
 }
 
 .hero {
-	margin-top: 1rem;
+	height: auto;
+	width: 100%;
+	min-width: 100%;
 	margin-bottom: 1rem;
-	height: 550px;
-	width: auto;
-	background-color: grey;
+	margin-top: 1rem;
 }
 
 .vihaan {
@@ -161,6 +196,15 @@ main {
 }
 
 .spacer {
+	width: 50%;
+}
+
+.spacer1 {
+	width: 50%;
+	margin-right: 50px;
+}
+
+.spacer2 {
 	width: 50%;
 }
 
@@ -216,12 +260,12 @@ p {
 }
 
 .row3 {
-	margin-top: 2rem;
+	margin-top: 5rem;
 	display: flex;
 }
 
 .row4 {
-	margin-top: 2rem;
+	margin-top: 5rem;
 	display: flex;
 	margin-bottom: 4rem;
 }
@@ -241,5 +285,51 @@ p {
 }
 
 .beacon-text3 {
-	margin-left: 25px;
+	/* margin-left: 50px; */
+}
+
+footer {
+	height: 6rem;
+	background-color: #bcbcbc;
+	color: white;
+	padding: 2rem 5rem;
+}
+
+footer p {
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-row {
+	height: 6rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-col {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.footer-col h3 {
+	margin-block-end: 0;
+	font-weight: 300;
+	margin-block-start: 0;
+	text-align: right;
+	font-family: source-sans-pro, sans-serif;
+}
+
+.footer-col p {
+	margin-block-end: 0;
+	font-weight: 300;
+	margin-block-start: 0;
+	font-family: source-sans-pro, sans-serif;
 }
