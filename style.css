@@ -150,6 +150,10 @@ main {
 	margin: 0rem 5rem;
 }
 
+.main {
+	margin: 3rem 5rem;
+}
+
 .hero {
 	height: auto;
 	width: 100%;
@@ -214,7 +218,17 @@ main {
 	font-weight: 200;
 
 	font-style: normal;
-	font-size: 1rem;
+	font-size: 0.8rem;
+}
+
+.fa-arrow-left {
+	margin-bottom: 1rem;
+	color: #cbcbcb;
+}
+
+.fa-arrow-left:hover {
+	color: #999999;
+	transition: all 0.3s ease;
 }
 
 p {
@@ -244,7 +258,7 @@ p {
 	font-family: source-sans-pro, sans-serif;
 
 	font-weight: 300;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	width: 100%;
 	margin-top: 1rem;
 	text-align: justify;
@@ -274,14 +288,14 @@ p {
 	font-family: source-sans-pro, sans-serif;
 
 	font-weight: 300;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	width: 100%;
 	text-align: justify;
 }
 
 .beacon-text2,
 .beacon-text3 {
-	width: calc(100% - 25px);
+	width: 100%;
 }
 
 .beacon-text3 {
@@ -342,7 +356,7 @@ footer p {
 }
 
 .thing {
-	display: flex
+	display: flex;
 }
 
 .cv {
@@ -354,12 +368,10 @@ footer p {
 	text-decoration: none;
 }
 
-
 .cv:hover {
 	opacity: 0.5;
 	cursor: pointer;
 	transition: all 0.2s ease;
-
 }
 
 .back-row {
@@ -370,13 +382,10 @@ footer p {
 	display: flex;
 	color: #a8a8a8;
 	font-family: source-sans-pro, sans-serif;
-	
 }
 .page-link {
 	transition: all 0.2s ease;
-
 }
-
 
 .page-link:hover {
 	opacity: 0.7;
@@ -384,11 +393,82 @@ footer p {
 }
 
 .body {
-	display: flex
+	display: flex;
+	justify-content: space-between;
 }
 
 .body-text {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
+	padding-right: 30px;
+}
+
+.body-images {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	justify-content: flex-end;
+}
+
+.image-row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2rem;
+	justify-content: space-between;
+}
+
+.bacon-image-1 {
+	width: 100%;
+}
+
+.bacon-image-2 {
+	height: 50%;
+	width: 50%;
+	margin-right: 2rem;
+}
+
+.bacon-image-3 {
+	width: 44%;
+	height: auto;
+}
+
+.bacon-image-4 {
+	width: 100%;
+}
+
+.graduate {
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 1rem;
+	width: 85%;
+	margin-bottom: 1rem;
+}
+
+.beacon-name {
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 600;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	font-size: 1.5rem;
+}
+
+.re-housing {
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	color: #999999;
+}
+
+.beacon-descrip {
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+	width: 82%;
+	margin-top: 1rem;
+	text-align: justify;
 }
