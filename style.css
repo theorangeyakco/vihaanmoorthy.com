@@ -9,6 +9,11 @@ body {
 	align-items: center;
 }
 
+.container {
+	position: absolute;
+	top: 8rem;
+}
+
 .column {
 	display: flex;
 	flex-direction: column;
@@ -116,10 +121,15 @@ h1 {
 }
 
 nav {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	flex-direction: row;
 	padding: 2rem 5rem;
+	align-items: center;
 	background-color: #f5f5f5;
 	height: 4rem;
 }
@@ -356,10 +366,14 @@ footer p {
 }
 
 .thing {
+	position: fixed;
+	right: 5rem;
+	margin-right: 20px;
 	display: flex;
 }
 
 .cv {
+	position: relative;
 	font-family: source-sans-pro, sans-serif;
 	font-size: 1.5rem;
 	margin-right: 20px;
@@ -415,8 +429,19 @@ footer p {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 2rem;
+	margin-bottom: 1.1rem;
 	justify-content: space-between;
+}
+
+.image-row2 {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.m-left {
+	margin-left: 20px;
 }
 
 .bacon-image-1 {
@@ -424,9 +449,7 @@ footer p {
 }
 
 .bacon-image-2 {
-	height: 50%;
-	width: 50%;
-	margin-right: 2rem;
+	width: 100%;
 }
 
 .bacon-image-3 {
@@ -471,4 +494,66 @@ footer p {
 	width: 82%;
 	margin-top: 1rem;
 	text-align: justify;
+}
+
+#section {
+	padding: 3rem 3rem;
+	position: fixed;
+	z-index: 1;
+	height: calc(100vh - 6rem);
+	width: 400px;
+	right: 0;
+	background-color: #ed9c6d;
+	display: none;
+}
+
+::selection {
+	color: none;
+	background: none;
+}
+
+.profile1,
+.profile2,
+.profile3,
+.profile4,
+.profile5,
+.profile6 {
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 600;
+	color: white;
+	font-size: 1.1rem;
+	width: 100%;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 2px solid white;
+	border-style: dotted;
+	margin-bottom: 1rem;
+	font-style: normal;
+}
+
+.profile1:hover,
+.profile2:hover,
+.profile3:hover,
+.profile4:hover,
+.profile5:hover,
+.profile6:hover {
+	cursor: pointer;
+	opacity: 0.7;
+	transition: 0.3s ease all;
+}
+
+.down1,
+.down2,
+.down3,
+.down4,
+.down5,
+.down6 {
+	font-family: source-sans-pro, sans-serif;
+	display: none;
+	font-weight: 300;
+	color: white;
+	font-size: 1rem;
+	line-height: 16px;
+	margin-bottom: 1rem;
 }
