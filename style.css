@@ -692,6 +692,7 @@ footer p {
 
 	.page-link {
 		display: flex;
+		align-items: flex-start;
 	}
 
 	.left,
