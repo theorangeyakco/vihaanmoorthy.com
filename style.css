@@ -579,7 +579,7 @@ footer p {
 	}
 
 	#section {
-		width: calc(80vw - 3rem);
+		width: calc(100vw - 6rem);
 	}
 
 	#arch {
@@ -717,7 +717,7 @@ footer p {
 	}
 
 	.thing {
-		right: 2rem;
+		right: 1rem;
 	}
 }
 @media screen and (max-width: 390px) {
