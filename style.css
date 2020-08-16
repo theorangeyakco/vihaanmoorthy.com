@@ -666,6 +666,7 @@ footer p {
 		margin: 1rem auto;
 		width: 88%;
 		min-width: 88%;
+		height: auto;
 	}
 	.left2 {
 		margin-top: 5rem;
