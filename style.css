@@ -574,6 +574,24 @@ footer p {
 		margin: 0rem;
 	}
 
+	.body {
+		flex-direction: column;
+	}
+
+	.main {
+		margin: 1rem 1rem;
+	}
+
+	.body-text {
+		margin-bottom: 2rem;
+		padding-right: 0;
+	}
+	.body-text,
+	.beacon-descrip,
+	.body-images {
+		width: 100%;
+	}
+
 	.container {
 		width: 100%;
 	}
