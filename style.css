@@ -442,6 +442,7 @@ footer p {
 	flex-direction: row;
 	margin-bottom: 1.1rem;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .image-row2 {
@@ -449,6 +450,7 @@ footer p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .m-left {
