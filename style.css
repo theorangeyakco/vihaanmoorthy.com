@@ -667,6 +667,9 @@ footer p {
 		width: 88%;
 		min-width: 88%;
 	}
+	.left2 {
+		margin-top: 5rem;
+	}
 
 	.page-link {
 		display: flex;
