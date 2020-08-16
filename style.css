@@ -346,6 +346,10 @@ footer p {
 	justify-content: space-between;
 }
 
+.clicktoview {
+	display: none;
+}
+
 .footer-col {
 	display: flex;
 	flex-direction: column;
@@ -574,6 +578,18 @@ footer p {
 @media screen and (max-width: 965px) {
 	main {
 		margin: 0rem;
+	}
+
+	.clicktoview {
+		text-decoration: underline;
+
+		font-family: source-sans-pro, sans-serif;
+		font-weight: 300;
+		font-size: 0.8rem;
+		width: 100%;
+		margin-top: 0.5rem;
+		display: block;
+		color: black;
 	}
 
 	.body {
