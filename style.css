@@ -5,16 +5,6 @@ body {
 	overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
-	display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-body {
-	-ms-overflow-style: none; /* IE and Edge */
-	scrollbar-width: none; /* Firefox */
-}
-
 .col {
 	display: flex;
 	align-items: center;
@@ -440,13 +430,26 @@ footer p {
 	flex-direction: column;
 	width: 50%;
 	padding-right: 30px;
+	justify-content: space-between;
+}
+
+#top {
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1rem;
+	text-decoration: underline;
+}
+
+#top:hover {
+	cursor: pointer;
 }
 
 .body-images {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	justify-content: flex-end;
+	justify-content: b flex-end;
 }
 
 .image-row {
@@ -518,6 +521,7 @@ footer p {
 	font-weight: 300;
 	font-size: 1rem;
 	width: 82%;
+	margin-bottom: 2rem;
 	margin-top: 1rem;
 	text-align: justify;
 }
@@ -587,6 +591,9 @@ footer p {
 @media screen and (max-width: 965px) {
 	main {
 		margin: 0rem;
+	}
+	#top {
+		display: none;
 	}
 
 	.clicktoview {
