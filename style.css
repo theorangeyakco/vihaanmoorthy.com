@@ -332,10 +332,6 @@ p {
 	width: 100%;
 }
 
-.beacon-text3 {
-	/* margin-left: 50px; */
-}
-
 footer {
 	height: 6rem;
 	background-color: #bcbcbc;
@@ -746,10 +742,6 @@ footer p {
 		display: flex;
 		flex-direction: column;
 		margin: auto;
-	}
-
-	.text {
-		/* width: 88%; */
 	}
 
 	.footer-col {
