@@ -29,7 +29,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	margin-right: 50px;
+	margin-right: 30px;
 }
 
 .column1 {
@@ -177,8 +177,8 @@ main {
 
 .hero {
 	height: auto;
-	width: 100%;
-	min-width: 100%;
+	width: 95%;
+	min-width: 95%;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 }
@@ -195,7 +195,7 @@ main {
 
 .vihaanimg {
 	height: auto;
-	width: 100%;
+	width: 95%;
 	margin-bottom: 1rem;
 }
 
@@ -310,7 +310,7 @@ p {
 
 	font-weight: 300;
 	font-size: 0.8rem;
-	width: 100%;
+	width: 95%;
 	text-align: justify;
 }
 
@@ -320,7 +320,7 @@ p {
 }
 
 .beacon-text3 {
-	/* margin-left: 50px; */
+	width: 95%;
 }
 
 footer {
