@@ -592,6 +592,9 @@ footer p {
 	main {
 		margin: 0rem;
 	}
+	#top {
+		display: none;
+	}
 
 	.clicktoview {
 		text-decoration: underline;
